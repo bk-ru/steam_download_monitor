@@ -1,0 +1,39 @@
+{
+  "interval_seconds": 15,
+  "samples": 20,
+  "tail_bytes": 524288,
+  "log_level": "INFO",
+  "log_file": "",
+  "log_encoding": "utf-8",
+  "timestamp_format": "%Y-%m-%d %H:%M:%S",
+  "steam_log_rel_path": "logs/content_log.txt",
+  "library_vdf_rel_path": "steamapps/libraryfolders.vdf",
+  "manifest_pattern": "steamapps/appmanifest_{appid}.acf",
+  "steam_root_candidates": {
+    "windows": [
+      "C:\\\\Program Files (x86)\\\\Steam",
+      "C:\\\\Program Files\\\\Steam"
+    ],
+    "linux": [
+      "~/.steam/steam",
+      "~/.steam/root",
+      "~/.local/share/Steam",
+      "/usr/lib/steam",
+      "/var/lib/steam"
+    ],
+    "darwin": [
+      "~/Library/Application Support/Steam"
+    ]
+  },
+  "registry": {
+    "paths": [
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Valve\\Steam",
+      "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam",
+      "HKEY_CURRENT_USER\\SOFTWARE\\Valve\\Steam"
+    ],
+    "values": [
+      "InstallPath",
+      "SteamPath"
+    ]
+  }
+}
