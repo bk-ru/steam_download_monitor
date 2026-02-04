@@ -85,8 +85,8 @@ raise SystemExit(main())
 | `STEAM_MONITOR_INTERVAL_SECONDS` | `15` | Интервал опроса, сек |
 | `STEAM_MONITOR_SAMPLES` | `20` | Кол-во итераций вывода |
 | `STEAM_MONITOR_TAIL_BYTES` | `524288` | Сколько байт читать с конца `content_log.txt` |
-| `STEAM_MONITOR_LOG_LEVEL` | `DEBUG` | Уровень диагностических логов (DEBUG/INFO/WARNING/ERROR/CRITICAL) |
-| `STEAM_MONITOR_LOG_FILE` | `monitor.log` | Файл для диагностических логов (если задан) |
+| `STEAM_MONITOR_LOG_LEVEL` | `INFO` | Уровень диагностических логов (DEBUG/INFO/WARNING/ERROR/CRITICAL) |
+| `STEAM_MONITOR_LOG_FILE` | *(не задано)* | Файл для диагностических логов (если задан) |
 | `STEAM_MONITOR_LOG_ENCODING` | `utf-8` | Кодировка чтения `content_log.txt` |
 | `STEAM_MONITOR_TIMESTAMP_FORMAT` | `%Y-%m-%d %H:%M:%S` | Формат времени |
 | `STEAM_MONITOR_STEAM_ROOT` | *(не задано)* | Путь к Steam (если авто-поиск не нашел установку) |
